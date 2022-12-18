@@ -1,0 +1,165 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+#menu {
+    height: 56px;
+    padding: 0 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#menu-part-1 {
+    display: flex;
+    gap: 35px;
+    align-items: baseline;
+}
+
+.menu-icon {
+    margin-top: 2px;   
+}
+
+form {
+    display: flex;
+}
+
+#search {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    outline: none;
+}
+
+#search-button {
+    height: 40px;
+    width: 57px;
+    cursor: pointer;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+}
+
+#menu-part-3 {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.avatar-icon {
+    width: 34px;
+    border-radius: 50%;
+}
+
+main {
+    margin: 28px 27px 0 75px;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin-right: 25px;
+}
+
+aside {
+    width: 372px;
+}
+
+h1 {
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+.info-video {
+    display: flex;
+    margin-top: 17px;
+    justify-content: space-between;
+}
+
+.info-part-1, .info-part-2, .info-part-3, .info-part-4, .info-part-5, .info-part-6 {
+    display: flex;
+}
+
+
+.info-part-1 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.channel-name p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+span {
+    color: #515151;
+}
+
+.subscribe {
+    width: 159px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #CC0000;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.info-part-3, .info-part-4, .info-part-5, .info-part-6 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.views {
+    padding-top: 17px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.description {
+    max-width: 510px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151;
+    padding-top: 16px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.other-videos {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contents h2 {
+    font-size: 14px;
+}
+
+.contents p {
+    font-size: 12px;
+    font-weight: 400;
+}
